@@ -8,15 +8,15 @@
     "url": "https://willy229liu.github.io",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "6F No. 5, Minzhe Road, Sanmin District",
+      "postalCode": "80794",
+      "city": "Taiwan",
+      "countryCode": "TW",
+      "region": "Kaohsiung"
     },
     "profiles": [
       {
-        "network": "Twitter",
+        "network": "GitHub",
         "username": "AlbertEinstein",
         "url": "https://twitter.com/AlbertEinstein"
       }
