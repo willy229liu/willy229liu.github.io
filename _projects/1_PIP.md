@@ -2,7 +2,7 @@
 layout: page
 title: "PIP: The Black-hearted Traffic-Chasing Promo Machine"
 description: A RogueLite strategy game combining slot machine mechanics with entertainment industry satire.
-img: assets/projects/edison/img/Cover.png
+img: assets/projects/edison/img/cover.png
 importance: 1
 category: project
 related_publications: false
@@ -45,13 +45,13 @@ https://drive.google.com/file/d/1xAMCZBB1teItJSyrbRVMX9LdHtGv6cqR
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/seasoning_shop.png" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/seasoning_shop.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/field.png" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/field1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/field2.png" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/field2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">Code & Clip</div>
