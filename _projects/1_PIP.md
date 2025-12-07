@@ -33,7 +33,7 @@ A "demonic" and satirical RogueLite strategy Character game based on slot machin
 
 Available package: 
 <a href="https://drive.google.com/file/d/1xAMCZBB1teItJSyrbRVMX9LdHtGv6cqR">
-https://drive.google.com/file/d/1xAMCZBB1teItJSyrbRVMX9LdHtGv6cqR
+https://drive.google.com/file/d/1tdtT67HkCtn7_hxDyICFnA4sbbsDsTUr
 </a>
 
 <div class="column">
