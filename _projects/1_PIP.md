@@ -43,6 +43,19 @@ https://drive.google.com/file/d/1xAMCZBB1teItJSyrbRVMX9LdHtGv6cqR
     <div class="caption">Video</div>
 </div>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/SeasoningShop.png" title="Action System" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/Field.png" title="Action System" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/Field2.png" title="Action System" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">Code & Clip</div>
+
 ### 1.3  Team & Work Distribution
 
 | Role          | Member       | Responsibilities                                                              |
@@ -151,12 +164,12 @@ Because I want to reduce the effect implements with codes, I required our artist
 
 + In my code, I see an clip play as an action, and I push it into my task system, allowing every animation to play consequently.
 
-<div class="column">
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/projects/edison/img/Anim.png" title="Action System" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/projects/edison/img/AnimCode.png" title="Action System" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption">Code & Clip</div>
 </div>
+<div class="caption">Code & Clip</div>
