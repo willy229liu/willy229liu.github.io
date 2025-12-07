@@ -45,13 +45,13 @@ https://drive.google.com/file/d/1xAMCZBB1teItJSyrbRVMX9LdHtGv6cqR
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/SeasoningShop.png" title="Action System" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/seasoning_shop.png" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/Field.png" title="Action System" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/field.png" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/Field2.png" title="Action System" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/field2.png" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">Code & Clip</div>
@@ -84,11 +84,11 @@ https://drive.google.com/file/d/1xAMCZBB1teItJSyrbRVMX9LdHtGv6cqR
 
 <div class="column">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/RoundPhase.svg" title="Round Phase" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/round_phase.svg" title="Round Phase" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="caption">Round Phase</div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/PlayerPhase.svg" title="Player Phase" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/player_phase.svg" title="Player Phase" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="caption">Player Phase</div>
 </div>
@@ -125,14 +125,14 @@ To implement a complex settle system, and the game has given settle sequence, I 
 
 <div class="column">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/SettleSequence.png" title="Settle Sequence" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/settle_sequence.png" title="Settle Sequence" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="caption">Settle Sequence</div>
 </div>
 
 <div class="column">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/ActionSystem.svg" title="Action System" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/action_system.svg" title="Action System" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="caption">Action System</div>
 </div>
@@ -151,7 +151,7 @@ Character system is as same as seasoning system, so I just talked about characte
 
 <div class="column">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/CharacterClassesDiagram.svg" title="Action System" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/character_classes_diagram.svg" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="caption">Class Diagram</div>
 </div>
@@ -166,10 +166,10 @@ Because I want to reduce the effect implements with codes, I required our artist
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/Anim.png" title="Action System" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/anim.png" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/AnimCode.png" title="Action System" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/anim_code.png" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">Code & Clip</div>
