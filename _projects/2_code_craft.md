@@ -4,7 +4,7 @@ title: Huawei CodeCraft Contest Solution
 description: I won an award in a national algorithm contest
 img: assets/projects/code_craft/img/cover.jpg
 importance: 2
-category: project
+category: Contest
 related_publications: false
 equation: true
 featured: true

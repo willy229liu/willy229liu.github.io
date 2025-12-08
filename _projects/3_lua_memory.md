@@ -4,7 +4,7 @@ title: Lua Source Code Memory Optimization
 description: a solution that minimizes memory of lua codes.
 img: assets/projects/lua_memory/img/cover.png
 importance: 3
-category: project
+category: Work
 related_publications: false
 equation: true
 featured: true

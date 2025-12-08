@@ -4,7 +4,7 @@ title: "PIP: The Black-hearted Traffic-Chasing Promo Machine"
 description: A RogueLite strategy game combining slot machine mechanics with entertainment industry satire.
 img: assets/projects/edison/img/cover.png
 importance: 1
-category: project
+category: Indie Game
 related_publications: false
 toc:
   sidebar: left

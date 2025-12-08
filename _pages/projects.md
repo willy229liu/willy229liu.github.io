@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
-display_categories: [project]
+display_categories: [Indie Game, Work, Academic, Contest, ]
 horizontal: false
 ---
 

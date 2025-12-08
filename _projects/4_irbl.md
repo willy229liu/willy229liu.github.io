@@ -2,9 +2,9 @@
 layout: page
 title: IRBL
 description: A system for Information-Retrieval-based Bug Localization
-img: assets/projects/lua_memory/irbl/cover.jpg
+img: assets/projects/irbl/img/cover.jpg
 importance: 4
-category: project
+category: Academic
 related_publications: true
 equation: true
 featured: true
@@ -43,7 +43,7 @@ toc:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/irbl/img/architecture.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/projects/irbl/img/architecture.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">Project Architecture</div>
@@ -57,15 +57,39 @@ toc:
 5. 骆斌,刘嘉,张瑾玉,黄蕾.《软件工程与计算（卷三） 团队与软件开发实践》
 6. IEEE标准
 
-### 1.3 Result
+### 1.3 Product Requirements
+
+### 1.4 Result
 
 #### 1.3.1 SWT - 3.1
 
-| AmaLgam       | Our method     | AmaLgam+      |
-| ------------- | -------------- | ------------- |
-| Top@1: 62.2%  | Top@1: 64.29%  | Top@1: 63.3%  |
-| Top@5: 81.6%  | Top@5: 85.72%  | Top@5: 80.6%  |
-| Top@10: 89.8% | Top@10: 91.84% | Top@10: 89.8% |
-| MRR: 0.71     | MRR: 0.74      | MRR: 0.71     |
-| MAP: 0.62     | MAP: 0.64      | MAP: 0.62     |
+| Metric | AmaLgam | Our method | AmaLgam+ |
+| ------ | ------- | ---------- | -------- |
+| Top@1  | 62.2%   | 64.29%     | 63.3%    |
+| Top@5  | 81.6%   | 85.72%     | 80.6%    |
+| Top@10 | 89.8%   | 91.84%     | 89.8%    |
+| MRR    | 0.71    | 0.74       | 0.71     |
+| MAP    | 0.62    | 0.64       | 0.62     |
+
+#### 1.3.2 AspectJ
+
+| Metric | AmaLgam | Our method | AmaLgam+ |
+| ------ | ------- | ---------- | -------- |
+| Top@1  | 44.4%   | 45.46%     | 49.4%    |
+| Top@5  | 65.4%   | 70.98%     | 72.7%    |
+| Top@10 | 73.1%   | 78.68%     | 80.3%    |
+| MRR    | 0.54    | 0.57       | 0.60     |
+| MAP    | 0.33    | 0.35       | 0.40     |
+
+#### 1.3.3 Eclipse - 3.1
+
+| Metric | AmaLgam | Our method | AmaLgam+ |
+| ------ | ------- | ---------- | -------- |
+| Top@1  | 34.5%   | 35.13%     | 35.7%    |
+| Top@5  | 57.7%   | 58.22%     | 60.3%    |
+| Top@10 | 67.0%   | 66.64%     | 69.1%    |
+| MRR    | 0.45    | 0.47       | 0.47     |
+| MAP    | 0.35    | 0.36       | 0.36     |
+
+## 2. Design
 
