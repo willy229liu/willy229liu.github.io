@@ -432,8 +432,8 @@ ninja.data = [{
           description: "A RogueLite strategy game combining slot machine mechanics with entertainment industry satire.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_PIP/";
-            },},{id: "projects-codecraft-algorithm",
-          title: 'CodeCraft Algorithm',
+            },},{id: "projects-huawei-codecraft-algorithm-contest",
+          title: 'Huawei CodeCraft Algorithm Contest',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_code_craft/";
