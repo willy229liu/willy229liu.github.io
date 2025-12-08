@@ -2,7 +2,7 @@
 layout: page
 title: "PIP: The Black-hearted Traffic-Chasing Promo Machine"
 description: A RogueLite strategy game combining slot machine mechanics with entertainment industry satire.
-img: assets/projects/edison/img/cover.png
+img: assets/projects/edison/img/cover_img.png
 importance: 1
 category: project
 related_publications: false
@@ -166,7 +166,7 @@ Because I want to reduce the effect implements with codes, I required our artist
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/anim.png" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/anim_clip.png" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/projects/edison/img/anim_code.png" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
