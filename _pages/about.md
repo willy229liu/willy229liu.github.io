@@ -6,7 +6,7 @@ subtitle: Game Engine Engineering
 
 profile:
   align: right
-  image: my_pic.jpg
+  image: my_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>My profile</p>
@@ -26,3 +26,8 @@ latest_posts:
 ---
 
 I am a game engine engineering for AFK: Journey at Lilith Games.
+
+My GitHub website:
+<a href="https://github.com/willy229liu">
+https://github.com/willy229liu
+</a>
