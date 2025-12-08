@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Huawei CodeCraft Algorithm Contest
-description: a project with a background image and giscus comments
+title: Huawei CodeCraft Contest Solution
+description: I won an award in a national algorithm contest
 img: assets/projects/code_craft/img/cover.jpg
 importance: 2
 category: project
@@ -22,7 +22,7 @@ toc:
 
 + **Timeline:** 2020.03 - 2020.05
 
-+ **GitHub Link:** <a href="https://github.com/willy229liu/HuaweiCodeCraft2020">https://github.com/willy229liu/HuaweiCodeCraft2020</a>
++ **Source Code Link:** <a href="https://github.com/willy229liu/HuaweiCodeCraft2020">https://github.com/willy229liu/HuaweiCodeCraft2020</a>
 
 + **Tools:** C++, WSL, Linux
 
