@@ -2,13 +2,15 @@
 layout: page
 title: "PIP: The Black-hearted Traffic-Chasing Promo Machine"
 description: A RogueLite strategy game combining slot machine mechanics with entertainment industry satire.
-img: assets/projects/edison/img/cover_img.png
+img: assets/projects/edison/img/cover.png
 importance: 1
 category: project
 related_publications: false
+toc:
+  sidebar: left
 ---
 
-## Project Overview
+## 0. Project Overview
 
 + **Role:** Gameplay architecture, Game Architecture, and Character Effect Development
 
@@ -29,7 +31,7 @@ A "demonic" and satirical RogueLite strategy Character game based on slot machin
 
 * **Pillar 2:** A unique world view wrapped in "demonic" entertainment industry satire. It integrates "Unhinged Literature" (发疯文学), fandom culture, easter eggs, and viral memes. It emphasizes differentiation in the game setting and experience on top of the strategic gameplay.
 
-### 1.2 Play Video & Package & Pic
+### 1.2 Play Video & Package & Picture
 
 Available package: 
 <a href="https://drive.google.com/file/d/1xAMCZBB1teItJSyrbRVMX9LdHtGv6cqR">
@@ -55,6 +57,19 @@ https://drive.google.com/file/d/1tdtT67HkCtn7_hxDyICFnA4sbbsDsTUr
     </div>
 </div>
 <div class="caption">Code & Clip</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/character1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/character2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/character3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">Character Show</div>
 
 ### 1.3  Team & Work Distribution
 
@@ -106,7 +121,6 @@ https://drive.google.com/file/d/1tdtT67HkCtn7_hxDyICFnA4sbbsDsTUr
 * Adopt the gameplay of "Random positions at the start of the turn -> Strategically adjust positions -> Settlement". This increases the controllability of the genre build during settlement.
 
 ---
-
 ## 2. My Programming Design
 
 ### 2.1 Perform System
@@ -139,7 +153,7 @@ To implement a complex settle system, and the game has given settle sequence, I 
 
 ### 2.2 Character System & Seasoning System
 
-Character system is as same as seasoning system, so I just talked about character system. I designed them with Factory and Abstract design patterns. To prevent Character instances from creating by everyone, I designed a factory that creates characters.
+Character system is as same as seasoning system, so I just talked about character system. I designed them with Factory and Abstract **design patterns**. To prevent Character instances from creating by everyone, I designed a factory that creates characters.
 
 + Send an identification number to factory, and the factory returns a class that implements the character logic.
 
@@ -151,25 +165,37 @@ Character system is as same as seasoning system, so I just talked about characte
 
 <div class="column">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/character_classes_diagram.svg" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/character_classes_diagram.svg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="caption">Class Diagram</div>
 </div>
 
-### 2.3 Cooperation with artists
+### 2.3 Cooperation with artists and designers
 
-Because I want to reduce the effect implements with codes, I required our artists to designed animations, and I just set triggers to control effects.
+Because I want to reduce the effect implements with codes, I required our **artists** to designed animations, and I just set triggers to control effects.
 
-+ The biggest advantage is that the artist could design what he wanted without changing codes. He set all properties in clips such as setting active for game object. I only need to set trigger to start play the clip he designed.
++ The biggest advantage is that the **artist** could design what he wanted without changing codes. He set all properties in clips such as setting active for game object. I only need to set trigger to start play the clip he designed.
 
 + In my code, I see an clip play as an action, and I push it into my task system, allowing every animation to play consequently.
 
++ I designed many types of text parsing rules, allowing **designers** to write many format texts in the configuration, and the special texts would be shown on different types.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/anim_clip.png" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/anim_clip.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/edison/img/anim_code.png" title="Action System" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/anim_code.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">Code & Clip</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/config.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/edison/img/config_show.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">Configuration & Show</div>
