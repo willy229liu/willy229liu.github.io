@@ -419,7 +419,7 @@ ninja.data = [{
               window.location.href = "/projects/3_lua_memory/";
             },},{id: "projects-irbl",
           title: 'IRBL',
-          description: "a project with a background image and giscus comments",
+          description: "A system for Information-Retrieval-based Bug Localization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_irbl/";
             },},{
