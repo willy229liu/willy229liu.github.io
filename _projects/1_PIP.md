@@ -38,7 +38,7 @@ https://drive.google.com/file/d/1tdtT67HkCtn7_hxDyICFnA4sbbsDsTUr
 
 <div class="column">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid loading="eager" path="assets/projects/edison/video/rookie1.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+        {% include video.liquid path="https://www.youtube.com/embed/1iWmEbmpfgA" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="caption">Video</div>
 </div>
