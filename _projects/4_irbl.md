@@ -22,7 +22,7 @@ toc:
 
 + **Tools:** Jenkins, SpringBoost, Vue.js, Docker
 
-This project is based on the industry software development workflows. We finished many requirement documents and meeting periodically.
++ **Project Target:** This project is based on the industry software development workflows. We simulated the process, writing many documents and taking meetings periodically
 
 ---
 ## 1. Project Introduction
