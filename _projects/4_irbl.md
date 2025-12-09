@@ -1,7 +1,7 @@
 ---
 layout: page
-title: IRBL
-description: A system for Information-Retrieval-based Bug Localization
+title: System for Information-Retrieval-based Bug Localization
+description: The Software Engineering and Computing III course project
 img: assets/projects/irbl/img/cover.jpg
 importance: 4
 category: Academic
