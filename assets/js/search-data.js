@@ -407,9 +407,9 @@ ninja.data = [{
           description: "A RogueLite strategy game combining slot machine mechanics with entertainment industry satire.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_PIP/";
-            },},{id: "projects-huawei-codecraft-contest-solution",
-          title: 'Huawei CodeCraft Contest Solution',
-          description: "I won an award in a national algorithm contest",
+            },},{id: "projects-high-performance-c-graph-processing-algorithm-optimization",
+          title: 'High-Performance C++ Graph Processing Algorithm Optimization',
+          description: "Huawei CodeCraft Contest 2020 - National Third Prize",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_code_craft/";
             },},{id: "projects-lua-source-code-memory-optimization",
