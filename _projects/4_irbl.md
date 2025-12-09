@@ -130,6 +130,16 @@ The system also provides the ability to display the similarity information betwe
     </div>
 </div>
 
+### 1.5  Team & Work Distribution
+
+| Role          | Member         | Responsibilities                                                              |
+| :------------ |:---------------|:------------------------------------------------------------------------------|
+| **Team Lead** | Chen, junjie   | Bug Localization Algorithm                                                    |
+| **Member**    | Chen, ganchun  | Back-end architecture                                                         |
+| **Member**    | **Liu, Yulin** | **Jenkins pipeline Building, Docker & k8s Building, and Unit Test Framework** |
+| **Member**    | Feng, Xinze    | Front-end architecture                                                        |
+{: .table .table-bordered .table-striped}
+
 ---
 ## 2. Design
 
