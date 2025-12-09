@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lua Source Code Memory Optimization
+title: Lua VM Memory Optimization & Stack Recovery System
 description: a solution that minimizes memory of lua codes.
 img: assets/projects/lua_memory/img/cover.png
 importance: 3
@@ -24,12 +24,13 @@ toc:
 
 + **Achievement:** Minimize Lua memory usage from 30MB to 15MB in a large-scale online game with over 20 million lines lua code.
 
-+ **Core:** Reduce Lua debug information but allow developers to recover error stacks. 
++ **Core Concept:** Standard Lua stores a `lineinfo` array (an integer for every single instruction) and `locvars` array (a structure for every defined local variable). 
+By removing these arrays and only keeping the `linedefined` (start line of the function) and calculating the current line using the `PC` (Program Counter) offset at runtime, the memory use of lua VM was minimized while maintaining the ability to reconstruct the stack trace offline.
 
 ---
 ## 1. Problem
 
-Lua is a language that widely used by the game industry. However, its too light framework has many problems when developers use it on a large-scale system. One of the problems is the memory usage for its debug information.
+Lua is widely used in the game industry. However, its too light framework has many problems when developers use it on a large-scale system. One of the problems is the memory usage for its debug information.
 
 Look at its structure of `Proto`, the lua source code structure of function information:
 {% highlight c linenos %}
@@ -59,7 +60,7 @@ typedef struct Proto {
 } Proto;
 {% endhighlight %}
 
-There are many debug information in its structure, such as `lineinfo` and `locvars`, and this information use much memory because Lua need to record all line information to recover the stack when running errors happen.
+The `Proto` structure contains much debug information, such as `lineinfo` and `locvars`, and this information use much memory because Lua need to record all line information to recover the stack when running errors happen.
 
 See the following test, we wrote some lua codes:
 {% highlight lua linenos %}
@@ -83,7 +84,7 @@ The file path and function position was stored in the `Proto` Class.
 Do developers remove the information? Lua offers a solution when we build binary files.
 <a href="https://www.lua.org/manual/5.4/manual.html#lua_dump">https://www.lua.org/manual/5.4/manual.html#lua_dump</a>
 
-We can use `luac.c -s a.lua` to strip debug information when building binary files. However, the tracing stacks was untractable. Like following:
+We can use `luac.c -s a.lua` to strip debug information when building binary files. However, the tracing stacks was untraceable. Like following:
 {% highlight text linenos %}
 D:\Downloads\Tools\bin\lua.exe: ?:-1: attempt to perform arithmetic on a nil value
 stack traceback:
@@ -101,7 +102,7 @@ Besides, the method would prevent outsiders from hacking our lua code due to all
 ---
 ## 2. Solution
 
-I observed what `luac.c -s a.lua` do in the ``, and designed all plan.
+I analyzed the stripping logic in `luac.c` and designed a custom stripping strategy.
 I should recover 2 things, lua file name and function line.
 
 ### 2.1 File Name
