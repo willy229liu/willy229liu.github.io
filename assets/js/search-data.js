@@ -417,9 +417,9 @@ ninja.data = [{
           description: "a solution that minimizes memory of lua codes.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_lua_memory/";
-            },},{id: "projects-irbl",
-          title: 'IRBL',
-          description: "A system for Information-Retrieval-based Bug Localization",
+            },},{id: "projects-system-for-information-retrieval-based-bug-localization",
+          title: 'System for Information-Retrieval-based Bug Localization',
+          description: "The Software Engineering and Computing III course project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_irbl/";
             },},{
