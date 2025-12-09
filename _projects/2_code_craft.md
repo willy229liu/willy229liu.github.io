@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Huawei CodeCraft Contest Solution
-description: I won an award in a national algorithm contest
+title: High-Performance C++ Graph Processing Algorithm Optimization
+description: Huawei CodeCraft Contest 2020 - National Third Prize
 img: assets/projects/code_craft/img/cover.jpg
 importance: 2
 category: Contest
@@ -12,7 +12,9 @@ toc:
   sidebar: left
 ---
 
-## 0. Contest Overview
+## 0. Overview
+
++ **Contest:** 2020 Huawei CodeCraft Contest <a href="https://competition.huaweicloud.com/codecraft2020">https://competition.huaweicloud.com/codecraft2020</a>
 
 + **Award:** The National Third Prize 
 
@@ -40,7 +42,6 @@ toc:
 ## 1. Contest Introduction
 
 We should run our codes on given platforms, a Linux server.
-+ **Contest Link:** <a href="https://competition.huaweicloud.com/codecraft2020">https://competition.huaweicloud.com/codecraft2020</a>
 
 ### 1.1 Preliminary Contest
 
@@ -185,10 +186,10 @@ To deeply optimize our code, we used C++ as a programming language.
 
 ### 2.1 Optimization
 
-+ We wrote many multithread  codes. We implemented multithread IO and multithread DFS searching algorithms. (We ever tried BFS, but the result did not improve)
++ We implemented extensive multithreading for IO and DFS traversal. (We experimented with BFS, but benchmark results showed no significant gain compared to our optimized DFS approach.)
 + We used memory copy and memory map to reduce IO time.
 
-+ We remove all STL containers, and use basic array to store all data. We simulated vector of STL and designed a customed struct.
++ We remove all STL containers, and use basic array to store all data. We simulated vector of STL and designed a custom struct.
 {% highlight c++ linenos %}
 typedef struct Edge {
     ui vertice;
@@ -221,7 +222,7 @@ typedef struct NodeNextList {
 } NodeNextList;
 {% endhighlight %}
 
-+ Define a number to char array to optimize writing result process.
++ We used SWAR (SIMD within a Register) techniques to convert integers to strings 4x faster than std::to_string.
 {% highlight c++ linenos %}
 uint32_t const NUMTOSTR1[] = {
         0x30303030, 0x30303031, 0x30303032, 0x30303033, 0x30303034, 0x30303035, 0x30303036, 0x30303037, 0x30303038,

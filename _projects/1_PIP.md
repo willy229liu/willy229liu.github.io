@@ -10,7 +10,7 @@ toc:
   sidebar: left
 ---
 
-## 0. Project Overview
+## 0. Overview
 
 + **Role:** Gameplay architecture, Game Architecture, and Character Effect Development
 
