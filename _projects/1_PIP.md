@@ -31,10 +31,11 @@ A "demonic" and satirical RogueLite strategy Character game based on slot machin
 
 * **Pillar 2:** A unique world view wrapped in "demonic" entertainment industry satire. It integrates "Unhinged Literature" (发疯文学), fandom culture, easter eggs, and viral memes. It emphasizes differentiation in the game setting and experience on top of the strategic gameplay.
 
-### 1.2 Play Video & Package & Picture
+### 1.2 Demo & Play Video & Screenshots
 
-Available package: 
-<a href="https://drive.google.com/file/d/1Ref8Ytzi3PFTb8Cq_YbpinxaUpTGn3Lb">
+Below is a gameplay walkthrough video demonstrating the core mechanics. For a hands-on experience, a playable Windows build is available for download.
+
+<a href="https://drive.google.com/file/d/1Ref8Ytzi3PFTb8Cq_YbpinxaUpTGn3Lb" target="_blank">
 https://drive.google.com/file/d/1Ref8Ytzi3PFTb8Cq_YbpinxaUpTGn3Lb
 </a>
 
