@@ -412,8 +412,8 @@ ninja.data = [{
           description: "Huawei CodeCraft Contest 2020 - National Third Prize",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_code_craft/";
-            },},{id: "projects-lua-source-code-memory-optimization",
-          title: 'Lua Source Code Memory Optimization',
+            },},{id: "projects-lua-vm-memory-optimization-amp-stack-recovery-system",
+          title: 'Lua VM Memory Optimization &amp;amp; Stack Recovery System',
           description: "a solution that minimizes memory of lua codes.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_lua_memory/";
