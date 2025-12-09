@@ -34,8 +34,8 @@ A "demonic" and satirical RogueLite strategy Character game based on slot machin
 ### 1.2 Play Video & Package & Picture
 
 Available package: 
-<a href="https://drive.google.com/file/d/1xAMCZBB1teItJSyrbRVMX9LdHtGv6cqR">
-https://drive.google.com/file/d/1tdtT67HkCtn7_hxDyICFnA4sbbsDsTUr
+<a href="https://drive.google.com/file/d/1Ref8Ytzi3PFTb8Cq_YbpinxaUpTGn3Lb">
+https://drive.google.com/file/d/1Ref8Ytzi3PFTb8Cq_YbpinxaUpTGn3Lb
 </a>
 
 <div class="row mt-3">
@@ -46,6 +46,14 @@ https://drive.google.com/file/d/1tdtT67HkCtn7_hxDyICFnA4sbbsDsTUr
     </div>
 </div>
 <div class="caption">Rookie Mode</div>
+<div class="row mt-3">
+    <div class="col-sm-12">
+        <div class="embed-responsive embed-responsive-16by9">
+            {% include video.liquid path="https://www.youtube.com/embed/4OLIYYbTaIQ" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
+<div class="caption">Challenge Mode</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -58,7 +66,7 @@ https://drive.google.com/file/d/1tdtT67HkCtn7_hxDyICFnA4sbbsDsTUr
         {% include figure.liquid loading="eager" path="assets/projects/edison/img/field2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">Code & Clip</div>
+<div class="caption">Game Screenshot</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -641,6 +641,6 @@ jsonresume:
   - interests
   - references
 
-jekyll-toc:
-  min_level: 1
-  max_level: 4   # 全局强制显示到 H3
+#jekyll-toc:
+#  min_level: 1
+#  max_level: 4   # 全局强制显示到 H3
