@@ -14,7 +14,7 @@ toc:
 
 + **Role:** Gameplay architecture, Game Architecture, and Character Effect Development
 
-+ **Team Size:** 5 Members (Unity)
++ **Team Size:** 5 Members
 
 + **Timeline:** 2025.03 - 2025.04
 

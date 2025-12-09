@@ -14,9 +14,9 @@ toc:
 
 ## 0. Overview
 
-+ **Role:** Jenkins pipeline Building, Docker & k8s Building, design documents, and Unit Test Framework
++ **Role:** CI/CD pipeline Building, Docker & k8s Building, and Unit Test Framework
 
-+ **Team Size:** 4 Members (Unity)
++ **Team Size:** 4 Members
 
 + **Timeline:** 2021.03 - 2021.06
 
@@ -103,45 +103,40 @@ The system also provides the ability to display the similarity information betwe
 
 ### 1.4 Front-End Show
 
-<div class="column">
-    <div class="col-sm mt-3 mt-md-0">
-        <div>
-            {% include figure.liquid loading="eager" path="assets/projects/irbl/img/show_evaluation.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-        </div>
-        <div class="caption">evaluation</div>
+<div class="row">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/irbl/img/show_evaluation.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">Evaluation Metrics</div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div>
-            {% include figure.liquid loading="eager" path="assets/projects/irbl/img/show_ranking.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-        </div>
-        <div class="caption">ranking</div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/irbl/img/show_ranking.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">Bug Report Ranking</div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div>
-            {% include figure.liquid loading="eager" path="assets/projects/irbl/img/detail.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-        </div>
-        <div class="caption">detail</div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/irbl/img/detail.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">Code Detail View</div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div>
-            {% include figure.liquid loading="eager" path="assets/projects/irbl/img/show_list.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-        </div>
-        <div class="caption">list</div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/projects/irbl/img/show_list.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">File List</div>
     </div>
 </div>
 
 ### 1.5  Team & Work Distribution
 
-| Role          | Member         | Responsibilities                                                              |
-| :------------ |:---------------|:------------------------------------------------------------------------------|
-| **Team Lead** | Chen, junjie   | Bug Localization Algorithm                                                    |
-| **Member**    | Chen, ganchun  | Back-end architecture                                                         |
-| **Member**    | **Liu, Yulin** | **Jenkins pipeline Building, Docker & k8s Building, and Unit Test Framework** |
-| **Member**    | Feng, Xinze    | Front-end architecture                                                        |
+| Role          | Member         | Responsibilities                                                            |
+| :------------ |:---------------|:----------------------------------------------------------------------------|
+| **Team Lead** | Chen, junjie   | Bug Localization Algorithm                                                  |
+| **Member**    | Chen, ganchun  | Back-end architecture                                                       |
+| **Member**    | **Liu, Yulin** | **CI/CD pipeline Building, Docker & k8s Building, and Unit Test Framework** |
+| **Member**    | Feng, Xinze    | Front-end architecture                                                      |
 {: .table .table-bordered .table-striped}
 
 ---
-## 2. Design
+## 2. Project Design
 
 ### 2.1 Logic View
 
