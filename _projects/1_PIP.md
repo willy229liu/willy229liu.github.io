@@ -38,12 +38,14 @@ Available package:
 https://drive.google.com/file/d/1tdtT67HkCtn7_hxDyICFnA4sbbsDsTUr
 </a>
 
-<div class="column">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/1iWmEbmpfgA" class="img-fluid rounded z-depth-1" %}
+<div class="row mt-3">
+    <div class="col-sm-12">
+        <div class="embed-responsive embed-responsive-16by9">
+            {% include video.liquid path="https://www.youtube.com/embed/4ZLV9oCREcc" class="img-fluid rounded z-depth-1" %}
+        </div>
     </div>
-    <div class="caption">Video</div>
 </div>
+<div class="caption">Rookie Mode</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -80,6 +82,7 @@ https://drive.google.com/file/d/1tdtT67HkCtn7_hxDyICFnA4sbbsDsTUr
 | **Member**    | **Liu, Yulin**   | **Gameplay architecture, Game Architecture, and Character Effect Development** |
 | **Member**    | Su, Yuhui    | Overall Art Direction & Development                                           |
 | **Member**    | Chang, Haobo | Audio & Spice Effect Development                                              |
+{: .table .table-bordered .table-striped}
 
 ### 1.4 Core Gameplay Mechanisms
 

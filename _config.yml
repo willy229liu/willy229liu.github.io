@@ -54,7 +54,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1200px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -640,3 +640,7 @@ jsonresume:
   - languages
   - interests
   - references
+
+jekyll-toc:
+  min_level: 1
+  max_level: 4   # 全局强制显示到 H3
