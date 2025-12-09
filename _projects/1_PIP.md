@@ -33,11 +33,15 @@ A "demonic" and satirical RogueLite strategy Character game based on slot machin
 
 ### 1.2 Demo & Play Video & Screenshots
 
+#### 1.2.1 Demo
+
 Below is a gameplay walkthrough video demonstrating the core mechanics. For a hands-on experience, a playable Windows build is available for download.
 
 <a href="https://drive.google.com/file/d/1Ref8Ytzi3PFTb8Cq_YbpinxaUpTGn3Lb" target="_blank">
 https://drive.google.com/file/d/1Ref8Ytzi3PFTb8Cq_YbpinxaUpTGn3Lb
 </a>
+
+#### 1.2.2 Play Video
 
 <div class="row mt-3">
     <div class="col-sm-12">
@@ -55,6 +59,8 @@ https://drive.google.com/file/d/1Ref8Ytzi3PFTb8Cq_YbpinxaUpTGn3Lb
     </div>
 </div>
 <div class="caption">Challenge Mode</div>
+
+#### 1.2.3 Screenshot
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
