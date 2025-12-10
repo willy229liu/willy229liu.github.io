@@ -30,11 +30,11 @@ Now I have left my company, and I am waiting my Taiwan’s mandatory military se
 
 **Education:** Bachelor of Engineering in Software Engineering
 
-**Skills:** Specialized in optimization for a Large-scale Open-world Online Game with Millions of Players.
+**Programming:** C++, C#, Lua, Java, and Python
 
-**Programming:** C++, C#, Lua, Java and Python
+**Engines & Tools:** Unity, Jenkins, Spring Boot, Git, Perforce, and PyTorch
 
-**Engines & Tools:** Unity, Jenkins, Spring, Git, Perforce, and Tensorflow
+**Specialization:** Optimization for large-scale open-world online games with millions of players
 
 + Memory Optimization, Multithreading, and Animation Optimization 
 + Resource Loading Acceleration 
