@@ -24,6 +24,8 @@ toc:
 
 + **Project Target:** This project is based on the industry software development workflows. We simulated the process, writing many documents and taking meetings periodically
 
++ **Source Code Link:** <a href="https://github.com/willy229liu/SECIII_Frontend">https://github.com/willy229liu/SECIII_Frontend</a> <a href="https://github.com/willy229liu/SECIII_Backend">https://github.com/willy229liu/SECIII_Backend</a>
+
 ---
 ## 1. Project Introduction
 
