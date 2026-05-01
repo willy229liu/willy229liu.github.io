@@ -26,7 +26,7 @@ latest_posts:
 ---
 
 I am a Game Engine Development Engineer for AFK: Journey at Lilith Games with over 3 years of experience.
-Now I have left my company, and I am waiting my Taiwan’s mandatory military service.
+I left my company to finish my Taiwan’s mandatory military service. 
 
 **Education:** Bachelor of Engineering in Software Engineering
 
