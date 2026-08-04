@@ -1,61 +1,137 @@
 {
   "basics": {
     "name": "Yu-Lin Liu",
-    "label": "Game Engine Engineer",
+    "label": "C++ / Unity Systems & Performance Engineer",
     "image": "",
     "email": "willy229.liu@gmail.com",
-    "phone": "(+886) 963541686",
     "url": "https://willy229liu.github.io",
     "profiles": [
       {
+        "network": "LinkedIn",
+        "username": "willy229liu",
+        "url": "https://linkedin.com/in/willy229liu"
+      },
+      {
         "network": "GitHub",
-        "username": "WillyLiu",
+        "username": "willy229liu",
         "url": "https://github.com/willy229liu"
       }
     ]
   },
+  "work": [
+    {
+      "name": "Lilith Games - AFK Journey",
+      "position": "Game Engine Development Engineer",
+      "url": "https://activity-afkjourney.farlightgames.com/",
+      "startDate": "2022-07",
+      "endDate": "2025-04",
+      "summary": "Built C++, C#, Lua, and Python runtime, performance, and developer tools for an award-winning open-world mobile game used by millions of players.",
+      "highlights": [
+        "Cut runtime memory 60% (2.5 GB to 1.0 GB) by profiling allocations, replacing high-overhead containers, adopting memory-mapped loading, and redesigning data pipelines.",
+        "Extended stable sessions on memory-constrained 3 GB devices beyond one hour by identifying retained objects and memory leaks, reducing allocation churn, and mitigating fragmentation.",
+        "Cut startup latency 75% (40 seconds to 10 seconds) by redesigning data parsing, asynchronous I/O, and resource-loading workflows across startup-critical pipelines.",
+        "Cut animation runtime memory 85% and per-asset size 90% through demand loading, lifecycle management, and compression.",
+        "Optimized a multithreaded small-map renderer for 500+ dynamic objects using LOD, vertex reduction, camera smoothing, and draw-call reduction.",
+        "Built automated asset-processing, FlatBuffers export, resource-management, and visual-effect performance-grading tools supporting production content workflows."
+      ]
+    },
+    {
+      "name": "Lilith Games - AFK Journey",
+      "position": "Game Engine Development Intern",
+      "url": "https://activity-afkjourney.farlightgames.com/",
+      "startDate": "2021-07",
+      "endDate": "2022-02",
+      "summary": "Built Unity game-engine features and content tools using C++, C#, Lua, and Python.",
+      "highlights": [
+        "Built Infinite Map Zoom with responsive boundary drag and pinch, seamless 3D-to-2D transitions, and camera, map, and icon gesture logic without noticeable loading.",
+        "Implemented rule-based 2D mini-map icon rendering and built map-copy, FlatBuffers export, and resource-management tools supporting designer and artist workflows."
+      ]
+    }
+  ],
   "education": [
+    {
+      "institution": "University of Wisconsin-Madison",
+      "location": "Madison, WI",
+      "url": "https://www.wisc.edu/",
+      "area": "Computer Science",
+      "studyType": "Master of Science (M.S.)",
+      "startDate": "2026-09",
+      "endDate": "2028-05",
+      "courses": ["Expected May 2028"]
+    },
     {
       "institution": "Nanjing University",
       "location": "Nanjing, China",
-      "url": "https://www.nju.edu.cn/",
-      "area": "Software Engineering",
-      "studyType": "Bachelor of Engineering",
+      "url": "https://www.nju.edu.cn/en/",
+      "area": "Software Engineering - GPA: 4.16/5.0",
+      "studyType": "Bachelor of Engineering (B.E.)",
       "startDate": "2018-09",
       "endDate": "2022-06",
-      "courses": [ "Data Structure and Algorithm Analysis",
-      "Computer Organization and System Architecture",
-      "Software System Design",
-      "Software Engineering and Computing" ]
+      "courses": [
+        "Data Structures & Algorithms",
+        "Computer Architecture",
+        "Operating System",
+        "Machine Learning",
+        "Pattern Recognition",
+        "Software Engineering",
+        "Software System Design",
+        "HCI",
+        "C++ Programming Language"
+      ]
     }
   ],
-  "work": [
+  "projects": [
     {
-      "name": "Lilith Games, AFK: Journey",
-      "position": "Game Engine Engineering",
-      "url": "https://activity-afkjourney.farlightgames.com/",
-      "startDate": "2022-07-04",
-      "endDate": "2025-04-11",
-      "summary": "Developed game systems in Unity using Lua, C++, C#, and Python.",
-      "highlights": ["Memory Optimization", "3D Character Production Pipeline", "Tools for Effect Evaluation", "Loading Acceleration", "Map Visual Optimization"]
-    },
-    {
-      "name": "Lilith Games, AFK: Journey",
-      "position": "Game Engine Internship",
-      "url": "https://activity-afkjourney.farlightgames.com/",
-      "startDate": "2021-06-30",
-      "endDate": "2022-02-25",
-      "summary": "Developed game systems in Unity using Lua, C++, C#, and Python.",
-      "highlights": ["Developer Tools", " 2D Mini-map Rendering System", "Infinite Map Zoom System"]
-    },
-    {
-      "name": "National Sun Yat-sen University, Mechatronics in Medicine Lab",
-      "position": "Research Assistant",
+      "name": "ECG Modeling Research",
       "url": "https://www2.nsysu.edu.tw/MEMS/index.html",
-      "startDate": "2025-05-19",
-      "endDate": "2025-08-29",
-      "summary": "Predicted age from single-lead electrocardiograms in polysomnography to estimate the severity of the apnea–hypopnea index. ",
-      "highlights": ["Machine learning", "Mechatronics in Medicine"]
+      "startDate": "2025-05",
+      "endDate": "2025-08",
+      "summary": "Modeled noisy single-lead ECG from hospital polysomnography studies to estimate AHI, an indicator of sleep apnea severity.",
+      "highlights": [
+        "Built a reproducible preprocessing and model-comparison pipeline evaluating ResNet-18, MultiRocket, TabPFN, XGBoost, and foundation models."
+      ]
+    },
+    {
+      "name": "UI Fault Detection Capstone",
+      "url": "https://willy229liu.github.io/projects/",
+      "summary": "Generated synthetic rendering faults from real mobile application screenshots.",
+      "highlights": ["Trained a 2D CNN classifier to detect UI rendering defects, achieving 0.87 test accuracy."]
+    },
+    {
+      "name": "Huawei CodeCraft Algorithm Competition",
+      "url": "https://willy229liu.github.io/projects/2_code_craft/",
+      "startDate": "2020-03",
+      "endDate": "2020-05",
+      "summary": "National Third Prize",
+      "highlights": ["Improved the time complexity of C++ directed-graph cycle detection and centrality-ranking algorithms."]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frameworks & Platforms",
+      "keywords": ["Unity", "PyTorch", "XGBoost", "Windows", "Android", "iOS"]
+    },
+    {
+      "name": "Languages",
+      "keywords": ["C++", "Python", "C#", "Lua", "Java"]
+    },
+    {
+      "name": "Systems & Performance",
+      "keywords": [
+        "Multithreading",
+        "Memory profiling",
+        "CPU profiling",
+        "Memory-mapped I/O",
+        "Asynchronous I/O",
+        "Cache-aware data structures",
+        "Serialization",
+        "Benchmarking",
+        "Virtual machine optimization"
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "keywords": ["FlatBuffers", "Git", "Perforce", "Jenkins"]
     }
   ]
 }
