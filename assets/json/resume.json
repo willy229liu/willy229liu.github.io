@@ -54,7 +54,7 @@
       "location": "Madison, WI",
       "url": "https://www.wisc.edu/",
       "area": "Computer Science",
-      "studyType": "Master of Science (M.S.)",
+      "studyType": "Master of Science",
       "startDate": "2026-09",
       "endDate": "2028-05",
       "courses": ["Expected May 2028"]
@@ -64,7 +64,7 @@
       "location": "Nanjing, China",
       "url": "https://www.nju.edu.cn/en/",
       "area": "Software Engineering - GPA: 4.16/5.0",
-      "studyType": "Bachelor of Engineering (B.E.)",
+      "studyType": "Bachelor of Engineering",
       "startDate": "2018-09",
       "endDate": "2022-06",
       "courses": [
