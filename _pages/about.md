@@ -37,13 +37,4 @@ In Fall 2026, I will begin an **M.S. in Computer Science at the University of Wi
 - Memory-mapped and asynchronous I/O, serialization, resource loading, and data pipelines
 - Developer and content tools using C#, Lua, Python, FlatBuffers, Git, Perforce, and Jenkins
 
-## Selected production impact
-
-- Reduced runtime memory by **60%** (2.5 GB to 1.0 GB) and extended stable sessions beyond one hour on memory-constrained 3 GB devices.
-- Cut startup latency by **75%** (40 seconds to 10 seconds) by redesigning data parsing, asynchronous I/O, and resource-loading workflows.
-- Reduced animation runtime memory by **85%** and per-asset size by **90%** through demand loading, lifecycle management, and compression.
-- Optimized a multithreaded small-map renderer for **500+ dynamic objects** using LOD, vertex reduction, camera smoothing, and draw-call reduction.
-
-Beyond production engineering, I have worked on ECG modeling, UI fault detection, and high-performance C++ graph algorithms. My Huawei CodeCraft team received the National Third Prize.
-
 Explore my [CV](/cv/), [projects](/projects/), or [GitHub](https://github.com/willy229liu).
