@@ -4,17 +4,17 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Yu-Lin
-middle_name: 
+middle_name:
 last_name: Liu
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Portfolio of Yu-Lin Liu, a C++ and Unity systems and performance engineer focused on game runtime optimization, memory, multithreading, and developer tooling.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Yu-Lin Liu, C++, Unity, game engine, systems performance, memory optimization, multithreading, developer tools, portfolio # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -640,7 +640,6 @@ jsonresume:
   - languages
   - interests
   - references
-
 #jekyll-toc:
 #  min_level: 1
 #  max_level: 4   # 全局强制显示到 H3
