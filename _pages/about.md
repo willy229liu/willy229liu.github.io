@@ -9,7 +9,7 @@ profile:
   image: my_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Madison, WI (Fall 2026)<br>Kaohsiung, Taiwan</p>
+    <p>Madison, WI</p>
     <p><a href="mailto:willy229.liu@gmail.com">willy229.liu@gmail.com</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -28,7 +28,7 @@ latest_posts:
 
 I am a systems and performance-focused software engineer specializing in **C++ and Unity**. I have more than three years of experience building runtime systems, performance optimizations, and developer tools for **AFK Journey** at Lilith Games, an award-winning open-world mobile game used by millions of players.
 
-In Fall 2026, I will begin an **M.S. in Computer Science at the University of Wisconsin-Madison** (expected May 2028). I earned my B.E. in Software Engineering from Nanjing University.
+I am currently an **M.S. student in Computer Science at the University of Wisconsin-Madison**, expected to graduate in May 2028. I earned my B.E. in Software Engineering from Nanjing University.
 
 ## Engineering focus
 
