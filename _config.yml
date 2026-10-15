@@ -3,17 +3,17 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Yu-Lin
+first_name: Yu-Lin(Willy)
 middle_name:
 last_name: Liu
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Portfolio of Yu-Lin Liu, a C++ and Unity systems and performance engineer focused on game runtime optimization, memory, multithreading, and developer tooling.
+  Portfolio of Yu-Lin(Willy) Liu, a C++ and Unity systems and performance engineer focused on game runtime optimization, memory, multithreading, and developer tooling.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Yu-Lin Liu, C++, Unity, game engine, systems performance, memory optimization, multithreading, developer tools, portfolio # add your own keywords or leave empty
+keywords: Yu-Lin(Willy) Liu, Yu-Lin Liu, C++, Unity, game engine, systems performance, memory optimization, multithreading, developer tools, portfolio # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -85,8 +85,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Yu-Lin Liu # blog_name will be displayed in your blog page
-blog_description: Portfolio of Yu-Lin Liu
+blog_name: Yu-Lin(Willy) Liu # blog_name will be displayed in your blog page
+blog_description: Portfolio of Yu-Lin(Willy) Liu
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
