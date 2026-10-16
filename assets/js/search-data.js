@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "C++ / Unity systems and performance engineer. Use the PDF icon to download the current one-page resume.",
+          description: "C++ / Unity systems and performance engineer. Use the PDF icon to download the current resume.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
